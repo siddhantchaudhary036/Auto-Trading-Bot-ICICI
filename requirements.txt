@@ -1,4 +1,3 @@
-breeze-connect
 neo-api-client
 pytz
 pyotp
