@@ -218,12 +218,6 @@ def login_to_apis():
             kotak_master_scrip = pd.read_csv(cash_url)
             initial_funds = float(client.limits()['Net'])
 
-
-            '''MANUAL CHANGES IN Initial Funds'''
-            initial_funds = 15000
-            '''MANUAL CHANGES IN Initial Funds'''
-
-
             print('Both APIs logged in successfully')
             return client,kotak_master_scrip,initial_funds
         
